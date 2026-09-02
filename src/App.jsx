@@ -195,23 +195,26 @@ export default function App() {
         />
       </main>
 
-      {/* Footer */}
-      <footer className="siteFooter">
-        <div className="footerContent">
-          <span className="footerBrand">SUBCALC — Subscription Calculator</span>
-          <span className="footerDot">•</span>
-          <span className="footerPrivacy">Local-first & Private</span>
-          <span className="footerDot">•</span>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footerLink"
-          >
-            GitHub
-          </a>
-        </div>
-      </footer>
+     {/* Footer */}
+<footer className="siteFooter">
+  <div className="footerContent">
+    <span className="footerBrand">
+      SUBCALC — Subscription Calculator
+    </span>
+
+    <span className="footerDot">•</span>
+
+    <span className="footerPrivacy">
+      Local-first • Private
+    </span>
+
+    <span className="footerDot">•</span>
+
+    <span className="footerCreated">
+      Crafted by <strong>RHLIVERSE</strong>
+    </span>
+  </div>
+</footer>
 
       {/* Add / Edit Subscription Dialog */}
       <SubscriptionModal
